@@ -1,6 +1,6 @@
 import string
 from statistics import mean
-def count_word(text):
+def count_moy_word(text):
     phrase = text.split()
     list_count = []
     list_ponct = list(string.punctuation)
@@ -16,5 +16,4 @@ def count_word(text):
     return round(moy, 1)
 
 
-print(count_word("Ici, c'est Simplon !! "))
 

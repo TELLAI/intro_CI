@@ -5,4 +5,4 @@ def reverse(word):
         reverse_word += i
     return reverse_word
 
-print(reverse("simplon"))
+

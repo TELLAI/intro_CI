@@ -6,4 +6,4 @@ def palindrom(word):
             rep = "non"
             return rep
     return rep
-print(palindrom("aba"))
+

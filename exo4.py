@@ -8,4 +8,4 @@ def count_word(text):
             count += 1
     return count
 
-print(count_word("Ici, c'est Simplon !! "))
+

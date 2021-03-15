@@ -8,4 +8,4 @@ def duplicate(liste_test):
                     list_dup.append(i)
 
     return list_dup
-print(duplicate([2,3,"abc",3,4,"ab",2]))
+

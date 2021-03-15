@@ -5,5 +5,8 @@ jobs:
   myFirstJob:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@V2
     - run:
         echo "hello world"
+    - name:
+        run: python test.py

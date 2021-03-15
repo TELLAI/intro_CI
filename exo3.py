@@ -1,4 +1,4 @@
-def reverse(nb):
+def reverse_num(nb):
     word = str(nb)
     list_word = list(word)[::-1]
     reverse_word = ""
@@ -6,5 +6,5 @@ def reverse(nb):
         reverse_word += i
     return int(reverse_word)
 
-print(reverse(257))
+
 
