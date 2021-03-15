@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@V2
-       run:
+        run:
         echo "hello world"
     - name:
         run: python test.py
