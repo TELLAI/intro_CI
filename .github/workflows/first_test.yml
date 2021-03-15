@@ -6,5 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@V2
-    - name:
-        run: python test.py
+      name: show files
+      run: ls -la
+    - name: Execute the tests
+      run: python test.py
